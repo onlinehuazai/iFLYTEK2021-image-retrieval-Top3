@@ -29,3 +29,7 @@
 2. Backbone可以换成其他的，比如IBN等等，但是我线下效果不好，可能线上效果好，次数有限，没有去试。
 3. 数据增强还有很多可以探讨的，根据第一（time佬）透露，hsv增强很有用。
 4. Focal loss效果不明显，但是smooth平滑有用。
+
+
+# 运行
+先运行Cut_image生成去掉face的图片，在依次运行one,two,three,four,five_fold, 最后在total_fold里面生成提交文件
